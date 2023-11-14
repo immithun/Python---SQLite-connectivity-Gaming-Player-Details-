@@ -1,6 +1,5 @@
 import sys;
 import sqlite3;  
-import re;
 conn=sqlite3.connect("freefire.db")
 cur=conn.cursor()
 
